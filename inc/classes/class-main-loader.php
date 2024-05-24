@@ -9,12 +9,7 @@ class MAIN_LOADER {
 
     protected function __construct(){
         Assets_Loader::get_instance();
-        $this->setup_hooks();
     }
-
-    protected function setup_hooks(){}
-
-    public function setup_theme(){}
 }
 
 ?>

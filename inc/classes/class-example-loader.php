@@ -12,7 +12,7 @@ class MAIN_LOADER {
     }
 
     protected function setup_hooks(){
-        // Use: add_action( 'wp_enqueue_scripts', [ $this, 'function-class' ] );
+        // Use to add the funtion for loading scripts/styles: add_action( 'wp_enqueue_scripts', [ $this, 'function-class' ] );
     }
 }
 

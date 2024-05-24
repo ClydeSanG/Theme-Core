@@ -13,9 +13,9 @@ if ( ! defined( 'THEMPLATE_DIR' ) ) {
 
 require_once THEME_DIR_PATH . '/inc/helpers/autoloader.php';
 
-function test_get_theme_instance() {
+function run_theme_loader() {
 	\YOUR_THEME\Inc\MAIN_LOADER::get_instance();
 }
 
-test_get_theme_instance();
+run_theme_loader();
 ?>
